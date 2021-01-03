@@ -45,9 +45,16 @@ The file that you want to look at is `tiny.html`.  I tried to build on that incr
 What's left to do is to change the CSS stylesheet so that it renders this page as the live page (link above). That should be doable (I hope).
 
 
+
 Two resources that helped me get here: 
 
 - https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 - https://www.client9.com/designing-html-for-safari-reader-mode/ (Thanks to Aaron Brager @getaaron )
+
+HTML Validators: 
+
+- https://validator.w3.org/nu/
+- https://html5.validator.nu
+
 
 
