@@ -13,12 +13,9 @@
 <body>
 
 
-<header>
-    Lorem ipsum dolor sit amet.
-</header>
 <article>
     <header><h1>CanIContact</h1></header>
-    <section class="head">
+    <section class="result">
         <h2>No</h2>
         <p class="sub">
             <span class="result"></span>aijaz is not available i.
@@ -26,7 +23,7 @@
             <span class="flask-moment" data-timestamp="2021-01-03T06:01:04Z" data-function="fromNow" data-refresh="60000" style="display: none">2021-01-03T06:01:04Z</span>
             <span class="moment">)</span>
         </p>
-    </section class="head">
+    </section>
 
     <section class="head">
         <header><h2>About this website</h2></header>
@@ -57,41 +54,47 @@
                 Our site is fully compatible with modern smartphones. Our iOS app (coming soon) provides widgets so that you can change your availability from your home screen.                
             </p>
         </section>
-        <footer>End of section class="head"</footer>
-    </section class="head">
+        <footer>End of section 1</footer>
+    </section>
 
-    <section class="head">
-        <header><h2>About this website</h2></header>
-        <section>
-            <header><h3>Who it's for</h3></header>
-            <p>
-                This website is for teachers, mentors, advisers, and anyone else who wants to let others know whether or not right now is a good time to contact them.
-            </p>
-        </section>
-        <section>
-            <header><h3>The problem it solves</h3></header>
-            <p>
-                There are times when we're involved in what I call "low-value tasks" like, watching TV, surfing the net, or simply puttering around the house.
-                At these times we're willing to be interrupted by others. Often, our students or advisees won't reach out to us because they don't know that we're available.
-                This website solves that problem.
-            </p>
-        </section>
-        <section>
-            <header><h3>How it works</h3></header>
-            <p>
-                Pick a user name. Create an account. Sign in and flip the switch to indicate your availability.
-                Share your link with others. That's it!
-            </p>
-        </section>
-        <section>
-            <header><h3>Mobile Support</h3></header>
-            <p>
-                Our site is fully compatible with modern smartphones. Our iOS app (coming soon) provides widgets so that you can change your availability from your home screen.                
-            </p>
-        </section>
-        <footer>End of section class="head"</footer>
-    </section class="head">
 
+   <section class="head">
+       <header>
+           <h2>Create an account</h2>
+       </header>
+       <section>
+           <header>
+               <h3>Sign up</h3>
+           </header>
+               <form method="POST" action="/app/lookup" class="pure-form pure-form-stacked" role="form">
+                 <input id="csrf_token" name="csrf_token" type="hidden" value="xxxxx">
+                   <fieldset>
+                       <label for="slug">User Name</label>
+                       <input name="slug" id="slug" type="text" placeholder="Choose a user name">
+                       <button type="submit" class="pure-button">Sign Up</button>
+                   </fieldset>
+               </form>
+       </section>
+       <section>
+           <header>
+               <h3>Pricing and Privacy</h3>
+               <p>
+                       I don't want your personal data. I only ask for your email because it's the best way to deal with
+                       forgotten passwords. In fact, I would recommend that you use a throwaway email address when signing up
+                       for this service. Since we don't gather (and sell) your data, you are not the product here. This service is.
+                       I'm doing this the old-fashioned way: I provide a service, you pay for it, and your personal information
+                       is safe. :)
+               </p>
+               <p>
+                       Most user names are $1/month, or $9/year. If a user name is only 2 letters long, it's $2/month or $18/year.
+                       Single-letter user names are $4/month, or $36/year.
+               </p>
+               <p>
+                       For more details about our privacy policy, visit <a href="/static/pp.html">this page</a>.
+               </p>
+           </header>
+       </section>
+   </section>
 
 
 </article>
