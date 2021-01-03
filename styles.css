@@ -1,0 +1,371 @@
+@font-face {
+    font-family: HelveticaNow;
+    font-display: fallback;
+    src: url("/static/hn02/TextLight.otf") format("opentype");
+}
+@font-face {
+    font-family: HelveticaNowMedium;
+    font-display: fallback;
+    src: url("/static/hn02/TextMedium.otf") format("opentype");
+}
+@font-face {
+    font-family: HelveticaNowBold;
+    font-display: fallback;
+    src: url("/static/hn02/TextBold.otf") format("opentype");
+}
+@font-face {
+    font-family: HelveticaNowDisplayBlack;
+    font-display: fallback;
+    src: url("/static/hn02/DisplayBlack.otf") format("opentype");
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: HelveticaNow, "Helvetica Neue", Helvetica, sans-serif;
+    color: #0B4412;
+    background-color: #f6fff6;
+}
+
+
+a:link,a:visited,a:active {
+    color: #0B4412;
+    text-decoration: None;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p a {
+    font-weight: bold;
+}
+
+a.more {
+    border: 1pt solid #606040;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline;;
+}
+
+div.title {
+    font-family: HelveticaNowDisplayBlack, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+div.titleIndexBig {
+    font-family: HelveticaNowDisplayBlack, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+div.titleIndexSmall {
+    font-family: HelveticaNowDisplayBlack, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin-top: 6pt;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.titleInner {
+    font-family: HelveticaNowDisplayBlack, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    float: left;
+    margin-left: 0.5em;
+}
+
+div.navBig {
+    font-family: HelveticaNowBold, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+
+  div.smallOnly { display: none; }
+  div.bigOnly { display: block; }
+
+h1,h2,h3,h4,h5 {
+    font-family: HelveticaNowBold, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+  h1 {
+    font-size: 2em;   
+    margin-top: 0.2em;
+  }
+
+
+.indexSection { 
+    margin-top: 1em;
+ }
+
+ .indexCol {
+    border-top: 4pt solid #0B4412 !important;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+ }
+
+ .indexColNoBorder {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+ }
+
+ .indexColThin {
+    border-top: 2pt solid #0B4412 !important;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+ }
+
+ .indexHalf {
+    margin-right: 2em;
+ }
+
+ div.logoContainer {
+    border-bottom: 4pt solid #0B4412;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.75em;
+}
+
+div.navInner { 
+    border-bottom: 1pt solid #0B4412;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.75em;
+ }
+
+.navItemInner {
+    float: left;
+    font-family: HelveticaNowBold, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0.55em;
+    padding-right: 0.5em;
+    border-right: 1pt solid #0B4412;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em;
+    } 
+
+
+div.heavyBottomBorder {
+    border-bottom: 6pt solid #0B4412;
+}
+
+h1.categoryName { 
+    font-size: 6em;
+    border-bottom: 1pt solid #0B4412;
+    padding-bottom: 8pt;
+    margin-bottom: 12pt;
+}
+
+article {
+    padding-bottom: 4pt;
+    border-bottom:  1pt solid #0B4412;
+    margin-bottom: 12pt;
+}
+
+h2.article {
+    margin-top: 11pt;
+    margin-right: 1em;
+}
+h2.articleTitle {
+    margin-top: 10pt;
+}
+
+h1.articleTitle {
+    margin-top: 10pt;
+}
+
+header.articleHeader {
+    border-bottom: 1pt solid #0B4412;
+    padding-bottom: 1em;
+}
+
+header.articleListHeader {
+    border: none;
+    padding-bottom: 1em;
+}
+
+
+div.mainContent {
+    max-width: 70em;
+    margin: auto;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+
+div.logo { 
+    float: left;
+ }
+ div.bigLogoText {
+    font-family: HelveticaNowDisplayBlack, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 3em;
+    line-height: 0.9em;
+ }
+ div.bigSubTitleText {
+    font-family: HelveticaNow, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: oblique;
+    color: #666666;
+ }
+ div.cb {
+    clear: both;
+ }
+
+div.navSmall { 
+    border-bottom: 1pt solid #0B4412;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.75em;
+ }
+
+.navItemSmall {
+    float: left;
+    font-family: HelveticaNowBold, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0.55em;
+    padding-right: 0.5em;
+    border-right: 1pt solid #0B4412;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em;
+    } 
+
+.noRightBorder {
+    border-right: none;
+}
+
+div.footnote {
+    font-size: 0.7em;
+    color: #909070;
+    margin-top: 1pt;
+}
+
+div.footnote > a {
+    color: #909070;
+}
+
+div.respImg {
+    border-bottom: 1pt dashed #669966;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+div.pure-img {
+    padding-bottom: 1em !important;
+}
+
+/*The video-container stuff is from https://gist.github.com/jaicab/8799764 */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 0;
+  margin-top: 2em;
+  height: 0; 
+  overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 48em) {
+  div.bigOnly { display: none; }
+  div.smallOnly { display: block; }
+  h1 {
+      font-family: HelveticaNowBold, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 1.5em;   
+  }
+
+  .indexSection { 
+      margin-top: 1em;
+   }
+  
+   .indexCol {
+      border: none !important;
+      margin: 0;
+      padding: 0;
+   }
+  
+   .indexHalf {
+      margin: 0;
+   }
+
+
+    div.titleInner {
+    font-size: 2em;
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+
+   h1.categoryName { 
+       font-size: 3em;
+       border-bottom: 1pt solid #0B4412;
+   }
+}
+
+code,
+kbd,
+pre,
+samp {
+ font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+ font-size:80% !important;
+}
+
+
+code {
+ padding:2px 4px;
+ font-size:90%;
+ color:#c7254e;
+ background-color:#f9f2f4;
+ border-radius:4px
+}
+
+pre code {
+ padding:0;
+ font-size:80% !important;
+ color:inherit;
+ white-space:pre-wrap;
+ background-color:transparent;
+ border-radius:0
+}
+
+
+span.info_label {
+    font-family: HelveticaNowBold, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+div.label_value {
+    padding-top: 2pt;
+}
+
+.is-center {
+    text-align: center;
+}
+
+
+h3.inner {
+    margin-top: 0;
+}
+
+h1.result {
+    font-family: HelveticaNowDisplayBlack, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 8em;
+    margin-bottom: 0;
+}
+
+p.result {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.pure-button {
+    background-color: #0B4412;
+    color: white;
+    border-radius: 5pt;
+}
