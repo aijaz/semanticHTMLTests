@@ -85,7 +85,7 @@ $(document).ready(function() {
     <article>
         <h2>No</h2>
         <p class="sub">
-            <span class="result"></span>aijaz is not available f.
+            <span class="result"></span>aijaz is not available g.
             <span class="moment">(as of </span>
             <span class="flask-moment" data-timestamp="2021-01-03T06:01:04Z" data-function="fromNow" data-refresh="60000" style="display: none">2021-01-03T06:01:04Z</span>
             <span class="moment">)</span>
@@ -123,6 +123,53 @@ $(document).ready(function() {
         </section>
         <footer>End of article</footer>
     </article>
+
+    <article>
+        <header>
+            <h2>Create an account</h2>
+        </header>
+
+        <section>
+            <header>
+                <h3>Sign up</h3>
+            </header>
+                <form method="POST" action="/app/lookup" class="pure-form pure-form-stacked" role="form">
+                  <input id="csrf_token" name="csrf_token" type="hidden" value="xxxxx">
+
+                    <fieldset>
+
+                        <label for="slug">User Name</label>
+                        <input name="slug" id="slug" type="text" placeholder="Choose a user name">
+
+                        <button type="submit" class="pure-button">Sign Up</button>
+                    </fieldset>
+                </form>
+
+        </section>
+
+        <section>
+            <header>
+                <h3>Pricing and Privacy</h3>
+                <p>
+                        I don't want your personal data. I only ask for your email because it's the best way to deal with
+                        forgotten passwords. In fact, I would recommend that you use a throwaway email address when signing up
+                        for this service. Since we don't gather (and sell) your data, you are not the product here. This service is.
+                        I'm doing this the old-fashioned way: I provide a service, you pay for it, and your personal information
+                        is safe. :)
+                    
+                </p>
+                <p>
+                        Most user names are $1/month, or $9/year. If a user name is only 2 letters long, it's $2/month or $18/year.
+                        Single-letter user names are $4/month, or $36/year.
+                    
+                </p>
+                <p>
+                        For more details about our privacy policy, visit <a href="/static/pp.html">this page</a>.
+                </p>
+            </header>
+        </section>
+    </article>
+
 </main>
 <footer>
     Contact us!
