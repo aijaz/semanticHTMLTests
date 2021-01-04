@@ -369,3 +369,47 @@ p.result {
     color: white;
     border-radius: 5pt;
 }
+
+
+/* new settings */
+article {
+    max-width: 70em;
+    margin: auto;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+
+article>header {
+    border-bottom: 6pt solid #0B4412;
+}
+
+article>header>h1 {
+  margin: 0;
+}
+
+nav>ul {
+  padding-left: 0;
+  margin-top: 0.5em;
+  padding-bottom: 0.75em;
+  border-bottom: 1pt solid #0B4412;
+}
+
+nav>ul>li {
+  display: inline;
+    font-family: HelveticaNowBold, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0.55em;
+    padding-right: 0.7em;
+    border-right: 1px solid #0B4412;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+
+
+
+
+
+
+
